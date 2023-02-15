@@ -13,7 +13,7 @@ export default function AdminPanelLogin() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "api-key": "Elvin1234",
+        "api-key": "Dersdeyem95",
       },
       body: JSON.stringify({ userName, password }),
     })

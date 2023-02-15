@@ -41,7 +41,7 @@ export default function EditCoin() {
     }
     fetch(`http://localhost:5000/coin/${id}`, {
       headers: {
-        "api-key": "Elvin1234",
+        "api-key": "Dersdeyem95",
       },
     })
       .then((res) => res.json())

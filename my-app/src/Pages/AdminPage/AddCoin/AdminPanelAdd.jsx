@@ -29,7 +29,7 @@ export default function AdminPanelAdd() {
     e.preventDefault();
     await fetch("http://localhost:5000/addCoin", {
       method: "POST",
-      headers: { "Content-Type": "application/json", "api-key": "Elvin1234" },
+      headers: { "Content-Type": "application/json", "api-key": "Dersdeyem95" },
       body: JSON.stringify(formData),
     })
       .then((response) => response.json())

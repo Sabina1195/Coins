@@ -44,7 +44,7 @@ export default function Pagination({ data, itemsPerPage }) {
                   ) {
                     fetch(`http://localhost:5000/delete/${coin.id}`, {
                       headers: {
-                        "api-key": "Elvin1234",
+                        "api-key": "Dersdeyem95",
                       },
 
                       method: "DELETE",

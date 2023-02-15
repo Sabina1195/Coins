@@ -17,7 +17,7 @@ export default function CoinsByCategory() {
   useEffect(() => {
     fetch(`http://localhost:5000/coins/${category}`, {
       headers: {
-        "api-key": "Elvin1234",
+        "api-key": "Dersdeyem95",
       },
     })
       .then((res) => res.json())

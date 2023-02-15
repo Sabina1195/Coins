@@ -7,7 +7,7 @@ export default function HomePageCoins() {
   useEffect(() => {
     fetch("http://localhost:5000/", {
       headers: {
-        "api-key": "Elvin1234",
+        "api-key": "Dersdeyem95",
       },
     })
       .then((res) => res.json())

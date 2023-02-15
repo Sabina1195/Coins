@@ -75,7 +75,7 @@ export default function AdvancedSearchPage() {
   useEffect(() => {
     fetch("http://localhost:5000/countryList", {
       headers: {
-        "api-key": "Elvin1234",
+        "api-key": "Dersdeyem95",
       },
     })
       .then((res) => res.json())

@@ -20,7 +20,7 @@ export default function AdminPanelEdit() {
       navigate(location.pathname + `?q=${value.toLowerCase()}`);
       fetch(`http://localhost:5000/search?q=${value}`, {
         headers: {
-          "api-key": "Elvin1234",
+          "api-key": "Dersdeyem95",
         },
       })
         .then((res) => res.json())
@@ -39,7 +39,7 @@ export default function AdminPanelEdit() {
     }
     fetch("http://localhost:5000/admin-panel/editCoin", {
       headers: {
-        "api-key": "Elvin1234",
+        "api-key": "DErsdeyem 95",
       },
     })
       .then((res) => res.json())
