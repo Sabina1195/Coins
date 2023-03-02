@@ -96,7 +96,9 @@ app.get("/", (req, res) => {
     coins 
  GROUP BY 
     category;`, (err, data) => {
-        if (!err) return res.json(data);
+        if (!err){
+            return res.json(data);
+        }
         res.status(500).send();
     })
 });
